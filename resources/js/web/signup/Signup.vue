@@ -23,7 +23,8 @@
                         <div>
                             <div
                                 class="px-4 py-1.5 sm:px-6 text-center bg-gradient-to-r from-xblue via-primary to-blue-600 rounded-md">
-                                <h4 class="text-white" v-html="regPageSetting &&
+                                
+                                    <h4 class="text-white" v-html="regPageSetting &&
                                         regPageSetting.reg_page_setting_detail &&
                                         regPageSetting
                                             .reg_page_setting_detail[0]

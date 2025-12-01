@@ -50,7 +50,7 @@
                     ? 'bg-red-600 border-red-600 text-white hover:text-white rounded hover:bg-red-600 hover:border-red-600'
                     : '',
                 ]"
-                >User profile</a
+                >User Profile</a
               >
             </li>
             <li class="mr-2">

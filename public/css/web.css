@@ -6847,9 +6847,19 @@ right: 28px;
   border-color: rgb(34 197 94 / var(--tw-border-opacity)) !important;
 }
 
+.peer:checked ~ .peer-checked\:border-gray-500 {
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity)) !important;
+}
+
 .peer:checked ~ .peer-checked\:text-green-500 {
   --tw-text-opacity: 1 !important;
   color: rgb(34 197 94 / var(--tw-text-opacity)) !important;
+}
+
+.peer:checked ~ .peer-checked\:text-gray-500 {
+  --tw-text-opacity: 1 !important;
+  color: rgb(107 114 128 / var(--tw-text-opacity)) !important;
 }
 
 .peer:-moz-placeholder-shown ~ .peer-placeholder-shown\:translate-y-0 {

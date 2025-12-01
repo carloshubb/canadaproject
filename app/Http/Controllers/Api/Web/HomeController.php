@@ -88,6 +88,7 @@ class HomeController extends Controller
         if ($defaultLang) {
             App::setLocale($defaultLang->abbreviation);
             $coffee_wall_setting = getI2bModalSetting($defaultLang, ['coffee_wall_setting']);
+            
             $payment_setting = getI2bModalSetting($defaultLang, ['payment_setting']);
             $niceNames = [
                 'name' => isset($coffee_wall_setting['name_error']) ? $coffee_wall_setting['name_error'] : '',

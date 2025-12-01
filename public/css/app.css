@@ -4958,9 +4958,17 @@ body {
   --tw-border-opacity: 1;
   border-color: rgb(34 197 94 / var(--tw-border-opacity));
 }
+.peer:checked ~ .peer-checked\:border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
 .peer:checked ~ .peer-checked\:text-green-500 {
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+.peer:checked ~ .peer-checked\:text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 .peer:-moz-placeholder-shown ~ .peer-placeholder-shown\:translate-y-0 {
   --tw-translate-y: 0px;

@@ -9,7 +9,7 @@
                     beautiful story
                 </a>
             </p>
-            <p class="text-gray-600">
+            <p class="">
                 It's a wonderful example of how a simple act of kindness can change the way someone sees the world.
             </p>
 
@@ -152,7 +152,7 @@
                             v-model="form.custom_amount"
                             @keypress="restrictToPositiveIntegers"
                             @input="clearPackageSelection"
-                            class="block mt-1 border-2 p-2.5 w-full rounded border-green-500 focus:outline-none focus:border focus:border-blue-600 pl-10 h-12"
+                            class="block mt-1 border-2 p-2.5 w-full rounded border-gray-200 focus:outline-none focus:border focus:border-blue-600 pl-10 h-12"
                             :placeholder="JSON.parse(coffee_wall_setting)['own_amount_label'] ?? 'Enter your amount'"
                         />
                     </div>
@@ -194,7 +194,7 @@
                 <div class="flex items-center space-x-1 relative w-full px-4 pt-4 gap-1">
                     <input @input="clearErrors('anonymous')" type="checkbox" class="" placeholder="" name="anonymous"
                         id="anonymous" v-model="form.anonymous" />
-                    <label class="block text-gray-900 text-base md:text-base lg:text-lg ml-2 fong-semibold" for="anonymous">{{
+                    <label class="block text-gray-900 text-base md:text-base lg:text-lg ml-2 fong-semibold font-bold" for="anonymous">{{
                         JSON.parse(coffee_wall_setting)["anonymous_label"] ?? 'Make donation anonymous' }}
                     </label>
                     <Error v-if="submitted" fieldName="anonymous" :validationErros="validationErros" full_width="1" />
@@ -231,8 +231,8 @@
                     <div class="flex items-center space-x-1 relative w-full pt-4 gap-1">
                         <input @input="clearErrors('notify_when_used')" type="checkbox" class="" placeholder="" name="notify_when_used"
                             id="notify_when_used" v-model="form.notify_when_used" />
-                        <label class="block text-gray-900 text-base md:text-base lg:text-lg" for="notify_when_used">
-                            Notify me when my Coffee is used
+                        <label class="block text-gray-900 text-base md:text-base lg:text-lg font-bold" for="notify_when_used">
+                            Let me know when my Coffee helps a business
                         </label>
                         <Error v-if="submitted" fieldName="notify_when_used" :validationErros="validationErros" full_width="1" />
                     </div>

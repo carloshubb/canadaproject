@@ -210,7 +210,7 @@
                                 </div>
                             </div>
                             <div class="relative z-0 w-full mb-6 col-span-3">
-                                <label :for="`step_2_acc_heading_${language.id}`" class="block text-sm font-medium leading-6 text-gray-900">User profile heading</label>
+                                <label :for="`step_2_acc_heading_${language.id}`" class="block text-sm font-medium leading-6 text-gray-900">User Profile Heading</label>
                                 <div class="mt-2">
                                     <div class="mt-5 ckeditorText" :id="`step_2_acc_heading_${language.id}`"></div>
                                     <p class="mt-2 text-sm text-red-400" v-if="validationErros.has(`step_2_acc_heading.step_2_acc_heading_${language.id}`)"
@@ -220,7 +220,7 @@
                             </div>
 
                             <div class="relative z-0 w-full mb-6 col-span-3">
-                                <label :for="`step_2_acc_description_${language.id}`" class="block text-sm font-medium leading-6 text-gray-900">User profile description</label>
+                                <label :for="`step_2_acc_description_${language.id}`" class="block text-sm font-medium leading-6 text-gray-900">User Profile description</label>
                                 <div class="mt-2">
                                     <div class="mt-5 ckeditorText" :id="`step_2_acc_description_${language.id}`"></div>
                                     <p class="mt-2 text-sm text-red-400" v-if="validationErros.has(`step_2_acc_description.step_2_acc_description_${language.id}`)"
@@ -556,7 +556,7 @@
                                 </div>
                             </div>
                             <div class="relative z-0 w-full mb-6 col-span-3">
-                                <label :for="`step_4_acc_heading_${language.id}`" class="block text-sm font-medium leading-6 text-gray-900">Business profile heading</label>
+                                <label :for="`step_4_acc_heading_${language.id}`" class="block text-sm font-medium leading-6 text-gray-900">Business Profile heading</label>
                                 <div class="mt-2">
                                     <div class="mt-5 ckeditorText" :id="`step_4_acc_heading_${language.id}`"></div>
                                     <p class="mt-2 text-sm text-red-400"
